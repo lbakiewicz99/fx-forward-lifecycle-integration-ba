@@ -2558,10 +2558,11 @@ Source: CSP-PR-002; CSP-LC-001 to CSL-LC-004]]></documentation>
       <callActivity name="Process New-Trade Booking"
                      id="_6bff67c5-49f8-475e-987b-83d3a83eccfb"
                      isForCompensation="false"
-                     calledElement="process_6bff67c5-49f8-475e-987b-83d3a83eccfb"
+                     calledElement="process_2592a405-fbef-4ab5-9893-5494369ac7d8"
                      startQuantity="0">
          <documentation id="documentation_6bff67c5-49f8-475e-987b-83d3a83eccfb"><![CDATA[Target model: CSP-BPMN-L2-001
-Source: CSP-PR-001; CSP-NT-001; CSP-NT-013]]></documentation>
+Source process: CSP-PR-001
+Source activities: CSP-NT-002 through CSP-NT-013]]></documentation>
          <extensionElements>
             <adonis:instance>
                <adonis:attribute name="IDENTIFICATION_OF_CHANGES"
@@ -6730,17 +6731,17 @@ Source: CSP-PR-006; CSP-AC-001 to CSP-AC-006]]></documentation>
          <bpmndi:BPMNShape bpmnElement="_4a2d791d-1b79-4fd2-98a6-b0bf0b5e9077"
                             isHorizontal="true"
                             id="BPMN_Shape_4a2d791d-1b79-4fd2-98a6-b0bf0b5e9077">
-            <omgdc:Bounds height="208" width="2270" x="78" y="38"/>
+            <omgdc:Bounds height="208" width="2497" x="78" y="38"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_2dd62834-03ec-4025-b58f-a03137813625"
                             isHorizontal="true"
                             id="BPMN_Shape_2dd62834-03ec-4025-b58f-a03137813625">
-            <omgdc:Bounds height="436" width="2270" x="78" y="246"/>
+            <omgdc:Bounds height="436" width="2497" x="78" y="246"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_87d858e8-0047-482d-87cb-aae6ab3e1acc"
                             isHorizontal="true"
                             id="BPMN_Shape_87d858e8-0047-482d-87cb-aae6ab3e1acc">
-            <omgdc:Bounds height="186" width="2270" x="78" y="682"/>
+            <omgdc:Bounds height="186" width="2497" x="78" y="682"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="dataObjectReference_94e017db-74a9-4a16-a145-89a780bc9208"
                             id="BPMN_Shape_94e017db-74a9-4a16-a145-89a780bc9208">
@@ -6749,22 +6750,22 @@ Source: CSP-PR-006; CSP-AC-001 to CSP-AC-006]]></documentation>
          <bpmndi:BPMNShape bpmnElement="_706eab95-e759-4eaa-aa4b-8ff9b73c2952"
                             isHorizontal="true"
                             id="BPMN_Shape_706eab95-e759-4eaa-aa4b-8ff9b73c2952">
-            <omgdc:Bounds height="246" width="2270" x="78" y="868"/>
+            <omgdc:Bounds height="246" width="2497" x="78" y="868"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_2c5419f0-8be2-4e03-ac86-0317877cf50b"
                             isHorizontal="true"
                             id="BPMN_Shape_2c5419f0-8be2-4e03-ac86-0317877cf50b">
-            <omgdc:Bounds height="297" width="2270" x="78" y="1114"/>
+            <omgdc:Bounds height="297" width="2497" x="78" y="1114"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_6bff67c5-49f8-475e-987b-83d3a83eccfb"
-                            isExpanded="true"
+                            isExpanded="false"
                             id="BPMN_Shape_6bff67c5-49f8-475e-987b-83d3a83eccfb">
             <omgdc:Bounds height="76" width="151" x="360" y="379"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_8b7b4e0a-48cb-4b61-98f5-b7613f2276b6"
                             isHorizontal="true"
                             id="BPMN_Shape_8b7b4e0a-48cb-4b61-98f5-b7613f2276b6">
-            <omgdc:Bounds height="378" width="2270" x="78" y="1411"/>
+            <omgdc:Bounds height="378" width="2497" x="78" y="1411"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_f7741ede-f3ae-4051-9d0c-c6acfc6833ec"
                             isHorizontal="true"
@@ -7191,10 +7192,10 @@ Source: CSP-PR-006; CSP-AC-001 to CSP-AC-006]]></documentation>
                            bpmnElement="_ccafd372-c1b4-4dde-a68b-9f769e754318">
             <omgdi:waypoint x="795" y="240"/>
             <omgdi:waypoint x="795" y="246"/>
-            <omgdi:waypoint x="492" y="246"/>
-            <omgdi:waypoint x="492" y="374"/>
+            <omgdi:waypoint x="435" y="246"/>
+            <omgdi:waypoint x="435" y="374"/>
             <bpmndi:BPMNLabel>
-               <omgdc:Bounds x="492" y="272" width="60" height="40"/>
+               <omgdc:Bounds x="435" y="272" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_cd911c4c-d553-463a-b082-c9154337d17e"

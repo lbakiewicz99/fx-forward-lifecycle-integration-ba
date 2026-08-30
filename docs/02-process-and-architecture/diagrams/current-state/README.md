@@ -164,7 +164,7 @@ Exported source files are not edited manually without subsequently importing and
 | Model ID | Filename base | Status |
 |---|---|---|
 | `CSP-BPMN-L1-001` | `csp-bpmn-l1-001-manage-fx-forward-current-state-lifecycle` | Draft |
-| `CSP-BPMN-L2-001` | `csp-bpmn-l2-001-process-new-trade-booking` | Planned |
+| `CSP-BPMN-L2-001` | `csp-bpmn-l2-001-process-new-trade-booking` | Draft |
 | `CSP-BPMN-L2-002` | `csp-bpmn-l2-002-process-amendment-and-cancellation` | Planned |
 | `CSP-BPMN-L2-003` | `csp-bpmn-l2-003-process-daily-valuation` | Planned |
 | `CSP-BPMN-L2-004` | `csp-bpmn-l2-004-prepare-and-monitor-maturity-and-settlement` | Planned |
