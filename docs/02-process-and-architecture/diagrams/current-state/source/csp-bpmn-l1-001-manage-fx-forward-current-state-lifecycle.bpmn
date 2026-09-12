@@ -2402,10 +2402,10 @@ Source: CSP-PR-007; CSP-RC-001 to CSP-RC-006]]></documentation>
       <callActivity name="Process Amendment and Cancellation"
                      id="_696c8804-4c18-47b3-89aa-d6563d9fa065"
                      isForCompensation="false"
-                     calledElement="process_696c8804-4c18-47b3-89aa-d6563d9fa065"
+                     calledElement="process_f3e4c697-61a1-45ec-9aca-9e00dff58e95"
                      startQuantity="0">
          <documentation id="documentation_696c8804-4c18-47b3-89aa-d6563d9fa065"><![CDATA[Target model: CSP-BPMN-L2-002
-Source: CSP-PR-002; CSP-LC-001 to CSL-LC-004]]></documentation>
+Source: CSP-PR-002; CSP-LC-001 to CSP-LC-004]]></documentation>
          <extensionElements>
             <adonis:instance>
                <adonis:attribute name="IDENTIFICATION_OF_CHANGES"
@@ -6809,7 +6809,7 @@ Source: CSP-PR-006; CSP-AC-001 to CSP-AC-006]]></documentation>
             <omgdc:Bounds width="56" height="56" x="938" y="916"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_696c8804-4c18-47b3-89aa-d6563d9fa065"
-                            isExpanded="true"
+                            isExpanded="false"
                             id="BPMN_Shape_696c8804-4c18-47b3-89aa-d6563d9fa065">
             <omgdc:Bounds height="76" width="151" x="1307" y="246"/>
          </bpmndi:BPMNShape>
