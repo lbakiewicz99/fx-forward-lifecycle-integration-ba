@@ -3017,7 +3017,7 @@ Source activities: CSP-NT-002 through CSP-NT-013]]></documentation>
       <callActivity name="Process Daily Valuation"
                      id="_87b926eb-ae38-4d59-9319-5a8be9480406"
                      isForCompensation="false"
-                     calledElement="process_87b926eb-ae38-4d59-9319-5a8be9480406"
+                     calledElement="process_c1630ef6-f014-4269-a960-ef69fb09e8c9"
                      startQuantity="0">
          <documentation id="documentation_87b926eb-ae38-4d59-9319-5a8be9480406"><![CDATA[Target model: CSP-BPMN-L2-003
 Source: CSP-PR-003; CSP-VL-001 to CSP-VL-006]]></documentation>
@@ -6814,7 +6814,7 @@ Source: CSP-PR-006; CSP-AC-001 to CSP-AC-006]]></documentation>
             <omgdc:Bounds height="76" width="151" x="1307" y="246"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_87b926eb-ae38-4d59-9319-5a8be9480406"
-                            isExpanded="true"
+                            isExpanded="false"
                             id="BPMN_Shape_87b926eb-ae38-4d59-9319-5a8be9480406">
             <omgdc:Bounds height="76" width="151" x="1402" y="719"/>
          </bpmndi:BPMNShape>
