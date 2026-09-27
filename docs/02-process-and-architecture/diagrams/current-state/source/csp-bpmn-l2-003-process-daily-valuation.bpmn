@@ -5598,7 +5598,9 @@ Output: Prepared FAP valuation file ready for controlled resubmission to SYS-FA
       <manualTask name="Identify normal and exception valuation populations"
                    id="_71bb89ce-ea91-4ccc-8364-2c5f4416bb2c"
                    isForCompensation="false">
-         <documentation id="documentation_71bb89ce-ea91-4ccc-8364-2c5f4416bb2c"><![CDATA[Input: Processable scheduled valuation file, population-comparison results, current SYS-FAP accounting-position state, and operational lifecycle information.
+         <documentation id="documentation_71bb89ce-ea91-4ccc-8364-2c5f4416bb2c"><![CDATA[Traceability: CSP-PR-003; CSP-VL-003.
+ 
+Input: Processable scheduled valuation file, population-comparison results, current SYS-FAP accounting-position state, and operational lifecycle information.
  
 Handling: Assess the expected trade, version, and valuation-date population. Identify missing, stale, duplicate, rejected, unknown-trade, and historical-version valuations while separating records suitable for normal processing.
  
