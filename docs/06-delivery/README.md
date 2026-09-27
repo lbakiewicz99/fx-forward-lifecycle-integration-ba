@@ -75,16 +75,18 @@ The following table records selected work items that are useful for public revie
 
 ## Selected Jira Evidence
 
-The public evidence set will contain a small number of sanitised screenshots showing:
+The following screenshots document Sprint 3 delivery and closure. Jira and Confluence remain the working sources; repository artefacts and Git history provide the corresponding implementation evidence.
 
 | Planned evidence file | What it demonstrates |
 |---|---|
-| `evidence/jira/sprint-3-board-completed.png` | Sprint goal, bounded scope, estimate, ownership, and completed delivery state |
-| `evidence/jira/fxf-32-details.png` | Work-item definition, status, spring assignment, priority, and estimate |
-| `evidence/jira/fxf-32-completion-evidence.png` | Delivered scope, validation result, repository path, and commit hashes |
-| `evidence/jira/fxf-29-progress.png` | Package-level progress across the remaining Level 2 models |
+| [Sprint 3 burndown and completion report](evidence/jira/sprint-3-burndown.png) | Completed sprint scope: FXF-32, 8 story points, and no scope changes |
+| [FXF-32 work-item details](evidence/jira/fxf-32-details.png) | Scope, Definition of Done, ownership, estimate, and Done status |
+| [FXF-32 implementation evidence](evidence/jira/fxf-32-completion-evidence.png) | Implementation completion recorded on 18 September, with repository references and an earlier progress update |
+| [Sprint 3 retrospective](evidence/confluence/sprint-3-retrospective.png) | Lessons learned and agreed improvement actions |
 
-Images are added only after irrelevant workspace information has been cropped and the displayed status is consistent with the repository state. No screenshot is treated as replacement for version-controlled artefact or Git history.
+Sprint 3 was closed on 27 September 2026. Its single 8-points item moved to Done after final review; incremental progress is recorded in the implementation commits and Jira comments.
+
+Final review included the traceability update in [`41b06c8`](https://github.com/lbakiewicz99/fx-forward-lifecycle-integration-ba/commit/41b06c8)
 
 ## Traceability Principles
 
@@ -105,4 +107,4 @@ At the completion of `FXF-32`:
 - the remaining Level 2 package continues under `FXF-29`;
 - final package validation and publication remain separate planned work.
 
-The current model inventory is maintained in the [Current-State BPMN Package README](../02-process-and-architecture/diagrams/current-state/README.md).
+The current model inventory is maintained in the [Current-State BPMN Package README](../02-process-and-architecture/diagrams/current-state/README.md). The BPMN artefact remains at Draft maturity pending package-level review.
