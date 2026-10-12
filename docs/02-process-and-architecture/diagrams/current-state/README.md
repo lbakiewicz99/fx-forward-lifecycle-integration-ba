@@ -167,7 +167,7 @@ Exported source files are not edited manually without subsequently importing and
 | `CSP-BPMN-L2-001` | `csp-bpmn-l2-001-process-new-trade-booking` | Draft |
 | `CSP-BPMN-L2-002` | `csp-bpmn-l2-002-process-amendment-and-cancellation` | Draft |
 | `CSP-BPMN-L2-003` | `csp-bpmn-l2-003-process-daily-valuation` | Draft |
-| `CSP-BPMN-L2-004` | `csp-bpmn-l2-004-prepare-and-monitor-maturity-and-settlement` | Planned |
+| `CSP-BPMN-L2-004` | `csp-bpmn-l2-004-prepare-and-monitor-maturity-and-settlement` | Draft - Partial draft: maturity population generation, lifecycle review, settlement action classification, and initial validation of both currency legs. Instruction submission, monitoring, and exception handling remain to be modelled. |
 | `CSP-BPMN-L2-005` | `csp-bpmn-l2-005-perform-accounting-and-nav-review` | Planned |
 | `CSP-BPMN-L2-006` | `csp-bpmn-l2-006-perform-reconciliation-and-reporting-controls` | Planned |
 | `CSP-BPMN-L2-007` | `csp-bpmn-l2-007-coordinate-cross-process-exceptions` | Planned |
