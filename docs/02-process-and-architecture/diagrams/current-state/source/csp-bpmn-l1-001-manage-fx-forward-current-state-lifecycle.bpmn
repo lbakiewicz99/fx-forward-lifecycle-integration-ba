@@ -1719,10 +1719,10 @@ Source: CSP-PR-008; DOC-CSP-001 Sections 10-15]]></documentation>
          <outgoing>_bbb2d804-96f9-4914-9a3c-911ca33eaad8</outgoing>
          <timerEventDefinition id="timerEventDefinition_2ae9e0c7-3187-4d91-9fb5-56dca342afe7"/>
       </intermediateCatchEvent>
-      <callActivity name="Prepare and Monitor Maturity and Settlement"
+      <callActivity name="CSP-BPMN-L2-004 - Prepare and Monitor Maturity and Settlement"
                      id="_34dc9437-546a-4891-bd51-a1dd3285844f"
                      isForCompensation="false"
-                     calledElement="process_34dc9437-546a-4891-bd51-a1dd3285844f"
+                     calledElement="process_03d4f388-8f3d-45fe-856a-97c3719225d9"
                      startQuantity="0">
          <documentation id="documentation_34dc9437-546a-4891-bd51-a1dd3285844f"><![CDATA[Target model: CSP-BPMN-L2-004
 Source: CSP-PR-004; CSP-PR-005; CSP-ST-001 to CSP-ST-007]]></documentation>
@@ -1837,9 +1837,9 @@ Source: CSP-PR-004; CSP-PR-005; CSP-ST-001 to CSP-ST-007]]></documentation>
                <adonis:attribute name="GLOBAL_SUB_PROCESS"
                                   type="BOOL"
                                   notebook="1"
-                                  sourcelang=""
+                                  sourcelang="en"
                                   novalue="0">
-                  <adonis:value>false</adonis:value>
+                  <adonis:value>true</adonis:value>
                   <adonis:metavalue/>
                </adonis:attribute>
                <adonis:attribute name="AUDITING"
@@ -6819,7 +6819,7 @@ Source: CSP-PR-006; CSP-AC-001 to CSP-AC-006]]></documentation>
             <omgdc:Bounds height="76" width="151" x="1402" y="719"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_34dc9437-546a-4891-bd51-a1dd3285844f"
-                            isExpanded="true"
+                            isExpanded="false"
                             id="BPMN_Shape_34dc9437-546a-4891-bd51-a1dd3285844f">
             <omgdc:Bounds height="76" width="151" x="1080" y="906"/>
          </bpmndi:BPMNShape>
