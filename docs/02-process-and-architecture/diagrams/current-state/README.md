@@ -168,6 +168,6 @@ Exported source files are not edited manually without subsequently importing and
 | `CSP-BPMN-L2-002` | `csp-bpmn-l2-002-process-amendment-and-cancellation` | Draft |
 | `CSP-BPMN-L2-003` | `csp-bpmn-l2-003-process-daily-valuation` | Draft |
 | `CSP-BPMN-L2-004` | `csp-bpmn-l2-004-prepare-and-monitor-maturity-and-settlement` | Draft |
-| `CSP-BPMN-L2-005` | `csp-bpmn-l2-005-perform-accounting-and-nav-review` | Draft - Partial: adjustment preparation, approval, correction loop, posting, and posting-result review modelled. No-adjustment and successful-posting paths lead to a common accounting and NAV outcome review and successful completion. Exception paths remain pending. |
+| `CSP-BPMN-L2-005` | `csp-bpmn-l2-005-perform-accounting-and-nav-review` | Draft - Core flow and exception handling modelled, including reassessment and unresolved-outcome escalation. Supporting data artefacts, L1 linkage, and final validation remain pending. |
 | `CSP-BPMN-L2-006` | `csp-bpmn-l2-006-perform-reconciliation-and-reporting-controls` | Planned |
 | `CSP-BPMN-L2-007` | `csp-bpmn-l2-007-coordinate-cross-process-exceptions` | Planned |
