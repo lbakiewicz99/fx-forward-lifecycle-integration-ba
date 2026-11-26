@@ -260,7 +260,7 @@
                                notebook="0"
                                sourcelang="en"
                                novalue="0">
-               <adonis:value>21585</adonis:value>
+               <adonis:value>22725</adonis:value>
                <adonis:metavalue/>
             </adonis:attribute>
             <adonis:attribute name="A_IT_SUPPORT"
@@ -697,6 +697,193 @@
             <flowNodeRef>_ae726997-19ac-4c44-9266-f7df433a46dd</flowNodeRef>
          </lane>
       </laneSet>
+      <dataObjectReference id="dataObjectReference_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c"
+                            name="Prepared journal or FAP adjustment input"
+                            dataObjectRef="_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c">
+         <documentation id="documentation_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c"><![CDATA[Traceability: CSP-PR-006; CSP-AC-003; CSP-AC-004.
+ 
+Manually prepared journal or FAP adjustment input awaiting independent review. Includes the trade reference, amount, currency, accounts, sign, accounting date, rationale, and supporting evidence. A corrected input is subject to renewed review before posting.]]></documentation>
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="IDENTIFICATION_OF_CHANGES"
+                                  type="ENUM"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0"
+                                  lang-independent="v0">
+                  <adonis:value>No change</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="MONITORING"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="A_NEED_FOR_ACTION_CS"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="FONT_COLOUR"
+                                  type="INTEGER"
+                                  notebook="0"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>0</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="CAPACITY"
+                                  type="INTEGER"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>0</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="AUDITING"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:record name="A_ATTACHMENT_LIST_CS"/>
+               <adonis:record name="OPEN_QUESTIONS"/>
+            </adonis:instance>
+         </extensionElements>
+      </dataObjectReference>
+      <dataObjectReference id="dataObjectReference_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d"
+                            name="Accounting adjustment requirement"
+                            dataObjectRef="_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d">
+         <documentation id="documentation_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d"><![CDATA[Traceability: CSP-PR-006; CSP-AC-002; CSP-AC-003.
+ 
+Defined requirement for an accounting reversal, reclassification, correction, or other adjustment arising from the applicable event. Records the affected trade or population, required accounting action, rationale, and supporting evidence used to prepare the controlled adjustment input.
+ ]]></documentation>
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="IDENTIFICATION_OF_CHANGES"
+                                  type="ENUM"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0"
+                                  lang-independent="v0">
+                  <adonis:value>No change</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="MONITORING"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="A_NEED_FOR_ACTION_CS"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="FONT_COLOUR"
+                                  type="INTEGER"
+                                  notebook="0"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>0</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="CAPACITY"
+                                  type="INTEGER"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>0</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="AUDITING"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:record name="A_ATTACHMENT_LIST_CS"/>
+               <adonis:record name="OPEN_QUESTIONS"/>
+            </adonis:instance>
+         </extensionElements>
+      </dataObjectReference>
+      <dataObjectReference id="dataObjectReference_f73d049c-99b0-414c-8fe6-0bb34be82ba9"
+                            name="Approved journal or FAP adjustment input"
+                            dataObjectRef="_f73d049c-99b0-414c-8fe6-0bb34be82ba9">
+         <documentation id="documentation_f73d049c-99b0-414c-8fe6-0bb34be82ba9"><![CDATA[Traceability: CSP-PR-006; CSP-AC-004; CSP-AC-005.
+ 
+Journal or FAP adjustment input approved by a reviewer separate from the maker and authorised for posting in SYS-FAP. Represents the approved version of the prepared input. An input returned for correction is not an approved posting input.]]></documentation>
+         <extensionElements>
+            <adonis:instance>
+               <adonis:attribute name="IDENTIFICATION_OF_CHANGES"
+                                  type="ENUM"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0"
+                                  lang-independent="v0">
+                  <adonis:value>No change</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="MONITORING"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="A_NEED_FOR_ACTION_CS"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="FONT_COLOUR"
+                                  type="INTEGER"
+                                  notebook="0"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>0</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="CAPACITY"
+                                  type="INTEGER"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>0</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:attribute name="AUDITING"
+                                  type="BOOL"
+                                  notebook="1"
+                                  sourcelang=""
+                                  novalue="0">
+                  <adonis:value>false</adonis:value>
+                  <adonis:metavalue/>
+               </adonis:attribute>
+               <adonis:record name="A_ATTACHMENT_LIST_CS"/>
+               <adonis:record name="OPEN_QUESTIONS"/>
+            </adonis:instance>
+         </extensionElements>
+      </dataObjectReference>
       <intermediateCatchEvent name="NAV_OUTCOME_REVIEW" id="_0efeeac2-2f01-4e96-b57b-ae75edb6f6a8">
          <documentation id="documentation_0efeeac2-2f01-4e96-b57b-ae75edb6f6a8"><![CDATA[Traceability: CSP-PR-006; CSP-AC-005; CSP-AC-006.
  
@@ -1592,6 +1779,38 @@ Output: No adjustment required, a defined controlled adjustment requirements, o
          </extensionElements>
          <incoming>_b67de7c8-0970-4d93-a682-6a29be4c4274</incoming>
          <outgoing>_0b9fdff3-79de-487e-b56a-0f595b28e4c9</outgoing>
+         <ioSpecification>
+            <dataOutput id="dataOutput_46f404fc-552d-4e8b-a343-51971562413d"/>
+            <inputSet/>
+            <outputSet>
+               <dataOutputRefs>dataOutput_46f404fc-552d-4e8b-a343-51971562413d</dataOutputRefs>
+            </outputSet>
+         </ioSpecification>
+         <dataOutputAssociation id="_46f404fc-552d-4e8b-a343-51971562413d">
+            <extensionElements>
+               <adonis:connector>
+                  <adonis:attribute name="DISPLAY_DENOMNIATION"
+                                     type="BOOL"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0">
+                     <adonis:value>false</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+                  <adonis:attribute name="REPRESENTATION_HAS_PROCESS"
+                                     type="ENUM"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0"
+                                     lang-independent="v0">
+                     <adonis:value>automatic</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+               </adonis:connector>
+            </extensionElements>
+            <sourceRef>dataOutput_46f404fc-552d-4e8b-a343-51971562413d</sourceRef>
+            <targetRef>dataObjectReference_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d</targetRef>
+         </dataOutputAssociation>
       </manualTask>
       <intermediateCatchEvent name="PREPARE_CORRECTION" id="_63c4b4fd-497d-4052-925d-e3f27b661754">
          <documentation id="documentation_63c4b4fd-497d-4052-925d-e3f27b661754"><![CDATA[Traceability: CSP-AC-003; CSP-AC-004.
@@ -2627,6 +2846,38 @@ Output: Adjustment processing result and resulting accounting state, or an acco
          </extensionElements>
          <incoming>_459be15e-e5d3-4a30-968c-8cf1df6fa6d8</incoming>
          <outgoing>_fe001414-1faf-400c-9372-1aabb21770ea</outgoing>
+         <ioSpecification>
+            <dataInput id="dataInput_0c787448-eadf-451c-927f-527885ad84f5"/>
+            <inputSet>
+               <dataInputRefs>dataInput_0c787448-eadf-451c-927f-527885ad84f5</dataInputRefs>
+            </inputSet>
+            <outputSet/>
+         </ioSpecification>
+         <dataInputAssociation id="_0c787448-eadf-451c-927f-527885ad84f5">
+            <extensionElements>
+               <adonis:connector>
+                  <adonis:attribute name="DISPLAY_DENOMNIATION"
+                                     type="BOOL"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0">
+                     <adonis:value>false</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+                  <adonis:attribute name="REPRESENTATION_HAS_PROCESS"
+                                     type="ENUM"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0"
+                                     lang-independent="v0">
+                     <adonis:value>automatic</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+               </adonis:connector>
+            </extensionElements>
+            <sourceRef>dataObjectReference_f73d049c-99b0-414c-8fe6-0bb34be82ba9</sourceRef>
+            <targetRef>dataInput_0c787448-eadf-451c-927f-527885ad84f5</targetRef>
+         </dataInputAssociation>
       </task>
       <manualTask name="Prepare the controlled journal or FAP adjustment input"
                    id="_a70f169e-1b95-4104-81df-dc469a278016"
@@ -2829,6 +3080,66 @@ Output: Prepared or corrected journal or FAP adjustment input ready for indepen
          <incoming>_5f23ac2c-3de1-4667-a335-50f3e2e7026d</incoming>
          <incoming>_a9713551-5d76-46c8-9690-0a142506d666</incoming>
          <outgoing>_317f81e6-1dbb-4c53-a54b-0f48f28ae63b</outgoing>
+         <ioSpecification>
+            <dataInput id="dataInput_dffe3bdd-2e93-4404-9d45-28bf3ff87024"/>
+            <dataOutput id="dataOutput_07017a00-a76e-4533-be39-efe9f1db31ab"/>
+            <inputSet>
+               <dataInputRefs>dataInput_dffe3bdd-2e93-4404-9d45-28bf3ff87024</dataInputRefs>
+            </inputSet>
+            <outputSet>
+               <dataOutputRefs>dataOutput_07017a00-a76e-4533-be39-efe9f1db31ab</dataOutputRefs>
+            </outputSet>
+         </ioSpecification>
+         <dataInputAssociation id="_dffe3bdd-2e93-4404-9d45-28bf3ff87024">
+            <extensionElements>
+               <adonis:connector>
+                  <adonis:attribute name="DISPLAY_DENOMNIATION"
+                                     type="BOOL"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0">
+                     <adonis:value>false</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+                  <adonis:attribute name="REPRESENTATION_HAS_PROCESS"
+                                     type="ENUM"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0"
+                                     lang-independent="v0">
+                     <adonis:value>automatic</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+               </adonis:connector>
+            </extensionElements>
+            <sourceRef>dataObjectReference_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d</sourceRef>
+            <targetRef>dataInput_dffe3bdd-2e93-4404-9d45-28bf3ff87024</targetRef>
+         </dataInputAssociation>
+         <dataOutputAssociation id="_07017a00-a76e-4533-be39-efe9f1db31ab">
+            <extensionElements>
+               <adonis:connector>
+                  <adonis:attribute name="DISPLAY_DENOMNIATION"
+                                     type="BOOL"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0">
+                     <adonis:value>false</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+                  <adonis:attribute name="REPRESENTATION_HAS_PROCESS"
+                                     type="ENUM"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0"
+                                     lang-independent="v0">
+                     <adonis:value>automatic</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+               </adonis:connector>
+            </extensionElements>
+            <sourceRef>dataOutput_07017a00-a76e-4533-be39-efe9f1db31ab</sourceRef>
+            <targetRef>dataObjectReference_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c</targetRef>
+         </dataOutputAssociation>
       </manualTask>
       <exclusiveGateway name="Accounting and NAV outcome accepted?"
                          id="_abd72f50-42b7-4b45-9fb7-29cd98810c5f"
@@ -3083,6 +3394,66 @@ Output: Approved adjustment input, or an item returned to the maker with correc
          </extensionElements>
          <incoming>_317f81e6-1dbb-4c53-a54b-0f48f28ae63b</incoming>
          <outgoing>_28b137a2-f7ef-45f3-841e-9e76808fdc22</outgoing>
+         <ioSpecification>
+            <dataInput id="dataInput_f17ffc30-0399-41c1-9663-d9a155449e31"/>
+            <dataOutput id="dataOutput_fd32d471-8132-43b3-9b41-d1cb62517790"/>
+            <inputSet>
+               <dataInputRefs>dataInput_f17ffc30-0399-41c1-9663-d9a155449e31</dataInputRefs>
+            </inputSet>
+            <outputSet>
+               <dataOutputRefs>dataOutput_fd32d471-8132-43b3-9b41-d1cb62517790</dataOutputRefs>
+            </outputSet>
+         </ioSpecification>
+         <dataInputAssociation id="_f17ffc30-0399-41c1-9663-d9a155449e31">
+            <extensionElements>
+               <adonis:connector>
+                  <adonis:attribute name="DISPLAY_DENOMNIATION"
+                                     type="BOOL"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0">
+                     <adonis:value>false</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+                  <adonis:attribute name="REPRESENTATION_HAS_PROCESS"
+                                     type="ENUM"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0"
+                                     lang-independent="v0">
+                     <adonis:value>automatic</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+               </adonis:connector>
+            </extensionElements>
+            <sourceRef>dataObjectReference_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c</sourceRef>
+            <targetRef>dataInput_f17ffc30-0399-41c1-9663-d9a155449e31</targetRef>
+         </dataInputAssociation>
+         <dataOutputAssociation id="_fd32d471-8132-43b3-9b41-d1cb62517790">
+            <extensionElements>
+               <adonis:connector>
+                  <adonis:attribute name="DISPLAY_DENOMNIATION"
+                                     type="BOOL"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0">
+                     <adonis:value>false</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+                  <adonis:attribute name="REPRESENTATION_HAS_PROCESS"
+                                     type="ENUM"
+                                     notebook="1"
+                                     sourcelang=""
+                                     novalue="0"
+                                     lang-independent="v0">
+                     <adonis:value>automatic</adonis:value>
+                     <adonis:metavalue/>
+                  </adonis:attribute>
+               </adonis:connector>
+            </extensionElements>
+            <sourceRef>dataOutput_fd32d471-8132-43b3-9b41-d1cb62517790</sourceRef>
+            <targetRef>dataObjectReference_f73d049c-99b0-414c-8fe6-0bb34be82ba9</targetRef>
+         </dataOutputAssociation>
       </manualTask>
       <manualTask name="Review valuation and accounting results"
                    id="_d315abf7-4edc-447b-a544-4fdacc4f4b6f"
@@ -5476,6 +5847,12 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
             </adonis:connector>
          </extensionElements>
       </sequenceFlow>
+      <dataObject name="Prepared journal or FAP adjustment input"
+                   id="_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c"/>
+      <dataObject name="Accounting adjustment requirement"
+                   id="_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d"/>
+      <dataObject name="Approved journal or FAP adjustment input"
+                   id="_f73d049c-99b0-414c-8fe6-0bb34be82ba9"/>
    </process>
    <bpmndi:BPMNDiagram name="CSP-BPMN-L2-005 - Perform Accounting and NAV Review"
                         id="Diagram_d47ec2e5-3451-4000-81a0-f53f156b79a6">
@@ -5493,12 +5870,12 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
          <bpmndi:BPMNShape bpmnElement="_c6d00755-e133-4dca-9fef-173df45e75cd"
                             isHorizontal="true"
                             id="BPMN_Shape_c6d00755-e133-4dca-9fef-173df45e75cd">
-            <omgdc:Bounds height="1420" width="2822" x="57" y="19"/>
+            <omgdc:Bounds height="1496" width="2822" x="57" y="19"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_65c11d41-a54a-477a-b26f-3efd3e920544"
                             isHorizontal="true"
                             id="BPMN_Shape_65c11d41-a54a-477a-b26f-3efd3e920544">
-            <omgdc:Bounds height="227" width="2782" x="97" y="1212"/>
+            <omgdc:Bounds height="303" width="2782" x="97" y="1212"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_d315abf7-4edc-447b-a544-4fdacc4f4b6f"
                             id="BPMN_Shape_d315abf7-4edc-447b-a544-4fdacc4f4b6f">
@@ -5537,7 +5914,7 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_63c4b4fd-497d-4052-925d-e3f27b661754"
                             id="BPMN_Shape_63c4b4fd-497d-4052-925d-e3f27b661754">
-            <omgdc:Bounds width="56" height="56" x="1487" y="123"/>
+            <omgdc:Bounds width="56" height="56" x="1676" y="67"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="_90cd16c7-37eb-4436-99e6-bbbf17cf72c0"
                             id="BPMN_Shape_90cd16c7-37eb-4436-99e6-bbbf17cf72c0">
@@ -5610,12 +5987,32 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
                             id="BPMN_Shape_0f683f6f-9fa5-41a1-ba9e-59d7c96ec55a">
             <omgdc:Bounds width="56" height="56" x="180" y="123"/>
          </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="dataObjectReference_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d"
+                            id="BPMN_Shape_b0dd7de5-da23-4e29-a5ed-13f2c0cfca1d">
+            <omgdc:Bounds width="48" height="56" x="1169" y="48"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="dataObjectReference_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c"
+                            id="BPMN_Shape_9a299a5a-dffc-4fd9-8758-9f9e8476ad9c">
+            <omgdc:Bounds width="48" height="56" x="1604" y="559"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="dataObjectReference_f73d049c-99b0-414c-8fe6-0bb34be82ba9"
+                            id="BPMN_Shape_f73d049c-99b0-414c-8fe6-0bb34be82ba9">
+            <omgdc:Bounds width="48" height="56" x="1604" y="1335"/>
+         </bpmndi:BPMNShape>
          <bpmndi:BPMNEdge id="BPMN_Edge_036bbfd5-e3d2-4734-9ae5-673a78d9ef2a"
                            bpmnElement="_036bbfd5-e3d2-4734-9ae5-673a78d9ef2a">
             <omgdi:waypoint x="1406" y="738"/>
             <omgdi:waypoint x="1447" y="738"/>
             <bpmndi:BPMNLabel>
                <omgdc:Bounds x="1426" y="738" width="60" height="40"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_07017a00-a76e-4533-be39-efe9f1db31ab"
+                           bpmnElement="_07017a00-a76e-4533-be39-efe9f1db31ab">
+            <omgdi:waypoint x="1628" y="364"/>
+            <omgdi:waypoint x="1628" y="557"/>
+            <bpmndi:BPMNLabel>
+               <omgdc:Bounds x="1628" y="518" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_07dec035-4d9e-449a-9caf-bc703df4ac04"
@@ -5633,6 +6030,14 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
             <omgdi:waypoint x="725" y="303"/>
             <bpmndi:BPMNLabel>
                <omgdc:Bounds x="706" y="303" width="60" height="40"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_0c787448-eadf-451c-927f-527885ad84f5"
+                           bpmnElement="_0c787448-eadf-451c-927f-527885ad84f5">
+            <omgdi:waypoint x="1653" y="1363"/>
+            <omgdi:waypoint x="1737" y="1363"/>
+            <bpmndi:BPMNLabel>
+               <omgdc:Bounds x="1720" y="1363" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_162028a3-60bc-4c6f-b620-9e58fd7f1b81"
@@ -5654,10 +6059,10 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_317f81e6-1dbb-4c53-a54b-0f48f28ae63b"
                            bpmnElement="_317f81e6-1dbb-4c53-a54b-0f48f28ae63b">
-            <omgdi:waypoint x="1666" y="364"/>
-            <omgdi:waypoint x="1666" y="1073"/>
+            <omgdi:waypoint x="1704" y="364"/>
+            <omgdi:waypoint x="1704" y="1073"/>
             <bpmndi:BPMNLabel>
-               <omgdc:Bounds x="0" y="0" width="60" height="40"/>
+               <omgdc:Bounds x="1704" y="692" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_31dab2de-068c-4181-8267-d8cb2c64827a"
@@ -5684,6 +6089,15 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
             <omgdi:waypoint x="1818" y="1319"/>
             <bpmndi:BPMNLabel>
                <omgdc:Bounds x="1818" y="1255" width="60" height="40"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_46f404fc-552d-4e8b-a343-51971562413d"
+                           bpmnElement="_46f404fc-552d-4e8b-a343-51971562413d">
+            <omgdi:waypoint x="568" y="260"/>
+            <omgdi:waypoint x="568" y="76"/>
+            <omgdi:waypoint x="1168" y="76"/>
+            <bpmndi:BPMNLabel>
+               <omgdc:Bounds x="568" y="207" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_4b1222d9-9b9c-4cb0-bc2b-0f733dc7d83a"
@@ -5713,11 +6127,10 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_5f23ac2c-3de1-4667-a335-50f3e2e7026d"
                            bpmnElement="_5f23ac2c-3de1-4667-a335-50f3e2e7026d">
-            <omgdi:waypoint x="1547" y="151"/>
-            <omgdi:waypoint x="1666" y="151"/>
-            <omgdi:waypoint x="1666" y="278"/>
+            <omgdi:waypoint x="1704" y="160"/>
+            <omgdi:waypoint x="1704" y="278"/>
             <bpmndi:BPMNLabel>
-               <omgdc:Bounds x="0" y="0" width="60" height="40"/>
+               <omgdc:Bounds x="1704" y="221" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_684a7561-8210-4af8-b4d0-44246cb1d81e"
@@ -5784,6 +6197,15 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
                <omgdc:Bounds x="1104" y="738" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_dffe3bdd-2e93-4404-9d45-28bf3ff87024"
+                           bpmnElement="_dffe3bdd-2e93-4404-9d45-28bf3ff87024">
+            <omgdi:waypoint x="1218" y="76"/>
+            <omgdi:waypoint x="1628" y="76"/>
+            <omgdi:waypoint x="1628" y="278"/>
+            <bpmndi:BPMNLabel>
+               <omgdc:Bounds x="1628" y="238" width="60" height="40"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_ef52c4cd-ed65-410c-b6c8-7cf9d9e91979"
                            bpmnElement="_ef52c4cd-ed65-410c-b6c8-7cf9d9e91979">
             <omgdi:waypoint x="240" y="303"/>
@@ -5792,12 +6214,28 @@ No: The item cannot proceed to reassessment because the necessary evidence or c
                <omgdc:Bounds x="260" y="303" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_f17ffc30-0399-41c1-9663-d9a155449e31"
+                           bpmnElement="_f17ffc30-0399-41c1-9663-d9a155449e31">
+            <omgdi:waypoint x="1628" y="689"/>
+            <omgdi:waypoint x="1628" y="1073"/>
+            <bpmndi:BPMNLabel>
+               <omgdc:Bounds x="1628" y="996" width="60" height="40"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_f3d181af-8afd-484b-995e-73d8d790e034"
                            bpmnElement="_f3d181af-8afd-484b-995e-73d8d790e034">
             <omgdi:waypoint x="600" y="511"/>
             <omgdi:waypoint x="677" y="511"/>
             <bpmndi:BPMNLabel>
                <omgdc:Bounds x="616" y="511" width="60" height="40"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge id="BPMN_Edge_fd32d471-8132-43b3-9b41-d1cb62517790"
+                           bpmnElement="_fd32d471-8132-43b3-9b41-d1cb62517790">
+            <omgdi:waypoint x="1628" y="1159"/>
+            <omgdi:waypoint x="1628" y="1333"/>
+            <bpmndi:BPMNLabel>
+               <omgdc:Bounds x="1628" y="1298" width="60" height="40"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge id="BPMN_Edge_fe001414-1faf-400c-9372-1aabb21770ea"
